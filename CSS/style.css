@@ -11,7 +11,7 @@
 }
 
 .footer{
-    background-color: #d1c4e9;
+    background-color: rgba(122, 98, 202, 0.7);
     margin: 0px auto;
     padding: 20px 0px 20px;
 }
@@ -19,11 +19,19 @@
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #9575cd;
+    background: rgb(122, 98, 202);
     color: floralwhite;
 }
 
-.address{
+/*a{
+    color: rgb(58, 16, 255);
+}
+
+a:hover{
+    color: rgba(58, 16, 255, 0.5);
+}*/
+
+address{
     font-size: 80%;
     margin: 0px;
     color: #0f0f0f;
