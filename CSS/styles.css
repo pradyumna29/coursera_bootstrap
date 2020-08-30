@@ -62,13 +62,13 @@ body {
 
 .carousel-caption {
 
-color:#fff;
-text-align:center;
-top: 50%;
-left:30%;
+    color:#fff;
+    text-align:center;
+    top: 50%;
+    left:20%;
 
-bottom:auto;
--webkit-transform:translate(0, -50%);
--ms-transform:translate(0, -50%);
-transform:translate(0, -50%);
+    bottom:auto;
+    -webkit-transform:translate(0, -50%);
+    -ms-transform:translate(0, -50%);
+    transform:translate(0, -50%);
 }
