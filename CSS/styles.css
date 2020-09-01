@@ -13,6 +13,12 @@
   background-color: #9575CD;
   color: floralwhite; }
 
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
 address {
   font-size: 80%;
   margin: 0px; }
@@ -39,21 +45,27 @@ body {
       top: 0;
       left: 0;
       min-height: 300px; }
+    .carousel .carousel-item .carousel-caption {
+      color: #fff;
+      text-align: center;
+      top: 50%;
+      left: 20%;
+      bottom: auto;
+      -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%); }
+
+.modal-header {
+  background: #512DAB;
+  color: white;
+  border-bottom: none; }
+  .modal-header .close {
+    color: floralwhite; }
+
+.modal-body {
+  background: #D1C4E9; }
 
 #carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px; }
-
-.carousel-caption {
-
-    color:#fff;
-    text-align:center;
-    top: 50%;
-    left:20%;
-
-    bottom:auto;
-    -webkit-transform:translate(0, -50%);
-    -ms-transform:translate(0, -50%);
-    transform:translate(0, -50%);
-}
