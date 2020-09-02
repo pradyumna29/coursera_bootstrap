@@ -57,8 +57,9 @@ body {
 
 .modal-header {
   background: #512DAB;
-  color: white;
   border-bottom: none; }
+  .modal-header h4 {
+    color: floralwhite; }
   .modal-header .close {
     color: floralwhite; }
 
